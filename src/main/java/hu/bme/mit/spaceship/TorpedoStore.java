@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  //a túlmelegedés esélyét generálja
   private Random random = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
